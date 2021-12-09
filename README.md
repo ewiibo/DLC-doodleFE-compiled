@@ -58,7 +58,7 @@ In fact, to authenticate to Azure with the service principal, you need the follo
 
 Now, construct the pattern of the credential file to connect to your azure principal of service
 <p style='text-align: center'>
-    <img src='images/Principale_service.PNG' alt="Exemple de rendu indisponible" width='400'/>
+    <img src='./images/Principale_service.PNG' alt="Exemple de rendu indisponible" width='400'/>
 </p>
 
 Keep it somewhere, we will use it later.
@@ -309,11 +309,12 @@ Then run `ansible-playbook -i ./hosts ~/install_FE_requirement.yml -K`
 
 **Step 10: Test your doodle app front end through internet**
 
-Open on your computer an internet navigator, then launch the public IP address of your `myVM4DoodleFrontEnd`; it is supposed give your the front of doodle project.
+Open on your computer an internet navigator, then launch the public IP address of your `myVM4DoodleFrontEnd`; it is supposed to give you the front of doodle project.
 
 
 **Conclusion**
-As you saw through this tutorial, based on Iac and using appropriated tools, you can rapidly deploy an infrastruce for a specific needs. Normaly, in your environnement, you will have a sepcific machine which role will be the Ansible Management Nodes, connected to a cloud service, and with some playbook well designed, you will be able to deploy rapidly the infrastructure you want. 
+
+As you saw through this tutorial, based on Iac and using appropriated tools, you can rapidly deploy an infrastruce for a specific needs. Normaly, in your environnement, you will have a sepcific machine which role will be the Ansible Management Nodes, connected to a cloud service, and with some playbook well designed, you will be able to deploy rapidly the infrastructure you want. Isn't it GREAT, Infrastructure As Code 😀.
 
 
 ## Liens utiles
