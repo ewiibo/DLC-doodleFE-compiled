@@ -58,7 +58,7 @@ In fact, to authenticate to Azure with the service principal, you need the follo
 
 Now, construct the pattern of the credential file to connect to your azure principal of service
 <p style='text-align: center'>
-    <img src='./images/Principale_service.PNG' alt="Exemple de rendu indisponible" width='400'/>
+    <img src='./images/Principale_service.png' alt="Exemple de rendu indisponible" width='400'/>
 </p>
 
 Keep it somewhere, we will use it later.
